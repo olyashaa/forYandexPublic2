@@ -4,23 +4,23 @@
     <meta charset="utf-8"/>
 
     <title>Школа Node.JS</title>
-
     <link rel="stylesheet" href="style.css" />
 </head>
 <body>
     <div class="main">
         <div class="main__form">
-            <form id="myForm" action="">
+            <form id="myForm" action="/form">
                 <input type="text" placeholder="Имя Фамилия Отчество" name="fio" />
                 <input type="email" placeholder="Email" name="email" />
                 <input type="tel" placeholder="Телефон" name="phone" />
-                <button id="submitButton">Отправить</button>
+                <button id="submitButton" onclick="event.preventDefault(); MyForm.submit()">Отправить</button>
             </form>
         </div>
         <div class=" main__result" id="resultContainer">
             РЕЗУЛЬТАТЫ
         </div>
     </div>
-<script type="text/script" src="index.js"></script>
+
+    <script src="index.js"></script>
 </body>
 </html>
