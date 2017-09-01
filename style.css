@@ -1,0 +1,30 @@
+html, body, div, form, input, button{
+    margin: 0;
+    padding: 0;
+}
+
+.main{
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.main__form{
+    margin-top: 50px;
+}
+input{
+    width: 100%;
+    height: 30px;
+    margin-bottom: 15px;
+    font-size: 1.2em;
+}
+button{
+    font-size: 1.2em;
+    padding: 5px;
+}
+.main__result{
+    margin-top: 50px;
+}
+
+.error{
+    border: 1px solid red;
+}
